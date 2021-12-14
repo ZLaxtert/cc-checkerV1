@@ -13,8 +13,8 @@ Credit Card Checker Stripe Charger
 ## Install on android (Termux)
     $ pkg install git -y
     $ pkg install php -y
-    $ git clone https://github.com/Zlaxtert/cc-checkerv1
-    $ cd cc-checkerv1
+    $ git clone https://github.com/Zlaxtert/cc-checkerV1
+    $ cd cc-checkerV1
     $ php cc.php
 
 ## Screenshot
