@@ -80,6 +80,10 @@ foreach ($lists as $list) {
          $u++;
          file_put_contents("result/unknown.txt", $list.PHP_EOL, FILE_APPEND);
          echo "[$no/$total] UNKNOWN | $list | CREDIT CARD CHECKER \n";
+     }elseif(strpos($res, "The server is temporarily busy, try again later!")){
+         $e++;
+         file_put_contents("result/error.txt", $list.PHP_EOL, FILE_APPEND);
+         echo "[x] !!!SERVER BUSY!!! [x]\n";
      }else{
          $e++;
          file_put_contents("result/error.txt", $list.PHP_EOL, FILE_APPEND);
