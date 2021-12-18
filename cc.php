@@ -88,7 +88,6 @@ foreach ($lists as $list) {
          $e++;
          file_put_contents("result/error.txt", $list.PHP_EOL, FILE_APPEND);
          echo "[x] ERROR CONNECTION [x]\n";
-         echo $res;
      }
 }
 
