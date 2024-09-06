@@ -6,7 +6,7 @@
  *   AUTHOR  : ZLAXTERT
  *   SCRIPT  : CREDIT CARD CHECKER
  *   GITHUB  : https://github.com/ZLAXTERT
- *   IG      : https://instagram.com/zlaxtert
+ *   IG      : https://t.me/zlaxtert
  *   VERSION : 1.1 (CLI)
  *  ======================================
  */
@@ -14,7 +14,7 @@
 //SETTING 
 
 ini_set("memory_limit", '-1');
-date_default_timezone_set("Asia/Jakarta");
+date_default_timezone_set("Asia/Bangkok");
 define("OS", strtolower(PHP_OS));
 
 $date = date("l, d-m-Y");
@@ -35,10 +35,10 @@ if(empty($listname) || !file_exists($listname)) {
 }
 $lists = array_unique(explode("\n",str_replace("\r","",file_get_contents($listname))));
 
-echo "[?] Lanjutkan ? (Y/n) >> ";
+echo "[?] Continue ? (Y/n) >> ";
 $q = trim(fgets(STDIN));
 $que = strtolower($q);
-if($que == 'n') exit("\n[!] LABIL LU !? [!]\n\n");
+if($que == 'n') exit("\n[!] FUCK OFF !? [!]\n\n");
 
 //COUNT
 
